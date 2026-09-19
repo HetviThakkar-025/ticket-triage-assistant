@@ -1,0 +1,24 @@
+# --- API ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic[email]==2.10.4
+
+# --- auth ---
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# --- AI / RAG ---
+google-generativeai==0.8.3
+numpy==2.2.1
+
+# --- frontend / http ---
+streamlit==1.41.1
+requests==2.32.3
+
+# --- config ---
+python-dotenv==1.0.1
+
+# --- tests ---
+pytest==8.3.4
+httpx==0.28.1

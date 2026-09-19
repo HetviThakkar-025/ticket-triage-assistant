@@ -1,0 +1,27 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# local database
+*.db
+*.sqlite3
+
+# embedding cache
+.cache/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# documents
+*.pdf
